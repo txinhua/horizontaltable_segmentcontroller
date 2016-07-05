@@ -8,6 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		0E0C2AB58153F8C1FA6559F2 /* libPods-VCWeb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB05519DF0D49DCE10DE33F9 /* libPods-VCWeb.a */; };
+		D09C72BA1D23B68F0099CDC2 /* UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = D09C72B91D23B68F0099CDC2 /* UUID.m */; };
+		D09C72BD1D23B6A60099CDC2 /* KeyChainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = D09C72BC1D23B6A60099CDC2 /* KeyChainStore.m */; };
+		D09C72D81D23BACD0099CDC2 /* VCNetLocalString.strings in Resources */ = {isa = PBXBuildFile; fileRef = D09C72C01D23BACD0099CDC2 /* VCNetLocalString.strings */; };
+		D09C72D91D23BACD0099CDC2 /* VCHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D09C72C41D23BACD0099CDC2 /* VCHttpClient.m */; };
+		D09C72DA1D23BACD0099CDC2 /* VCNetRequestBaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = D09C72C61D23BACD0099CDC2 /* VCNetRequestBaseService.m */; };
+		D09C72DB1D23BACD0099CDC2 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = D09C72C91D23BACD0099CDC2 /* NSData+Base64.m */; };
+		D09C72DC1D23BACD0099CDC2 /* NSDate+JavaTimeStampToDate.m in Sources */ = {isa = PBXBuildFile; fileRef = D09C72CB1D23BACD0099CDC2 /* NSDate+JavaTimeStampToDate.m */; };
+		D09C72DD1D23BACD0099CDC2 /* NSMutableDictionary+ConvertShaToken.m in Sources */ = {isa = PBXBuildFile; fileRef = D09C72CD1D23BACD0099CDC2 /* NSMutableDictionary+ConvertShaToken.m */; };
+		D09C72DE1D23BACD0099CDC2 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = D09C72CF1D23BACD0099CDC2 /* NSString+MD5.m */; };
+		D09C72DF1D23BACD0099CDC2 /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = D09C72D11D23BACD0099CDC2 /* NSString+Size.m */; };
+		D09C72E01D23BACD0099CDC2 /* NSString+VCBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = D09C72D31D23BACD0099CDC2 /* NSString+VCBase64.m */; };
+		D09C72E11D23BACD0099CDC2 /* NSString+VCSHA1.m in Sources */ = {isa = PBXBuildFile; fileRef = D09C72D51D23BACD0099CDC2 /* NSString+VCSHA1.m */; };
+		D09C72E21D23BACD0099CDC2 /* SignatureUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D09C72D71D23BACD0099CDC2 /* SignatureUtils.m */; };
+		D09C72E51D23BB1A0099CDC2 /* ServerEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = D09C72E41D23BB1A0099CDC2 /* ServerEntity.m */; };
+		D09C72E81D23BE0C0099CDC2 /* SerializeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D09C72E71D23BE0C0099CDC2 /* SerializeUtils.m */; };
+		D09C72EB1D23BF2C0099CDC2 /* VCRNService.m in Sources */ = {isa = PBXBuildFile; fileRef = D09C72EA1D23BF2C0099CDC2 /* VCRNService.m */; };
+		D09C72ED1D24AA7D0099CDC2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D09C72EC1D24AA7D0099CDC2 /* CoreData.framework */; };
 		D0DDC0F01D20BF32003A1F39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DDC0EF1D20BF32003A1F39 /* main.m */; };
 		D0DDC0F31D20BF32003A1F39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DDC0F21D20BF32003A1F39 /* AppDelegate.m */; };
 		D0DDC0F61D20BF32003A1F39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DDC0F51D20BF32003A1F39 /* ViewController.m */; };
@@ -21,11 +38,48 @@
 		D0DDC1101D211718003A1F39 /* loading_5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0DDC10A1D211718003A1F39 /* loading_5@2x.png */; };
 		D0DDC1111D211718003A1F39 /* loading_6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0DDC10B1D211718003A1F39 /* loading_6@2x.png */; };
 		D0DDC1141D212510003A1F39 /* NewsResponde.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DDC1131D212510003A1F39 /* NewsResponde.m */; };
+		D0DDC1171D23612D003A1F39 /* VCWebBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DDC1161D23612D003A1F39 /* VCWebBrowserController.m */; };
+		D0DDC11F1D23960A003A1F39 /* CTMediator+CTMediatorModuleAActions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DDC11C1D23960A003A1F39 /* CTMediator+CTMediatorModuleAActions.m */; };
+		D0DDC1201D23960A003A1F39 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DDC11E1D23960A003A1F39 /* CTMediator.m */; };
+		D0FF48581D2B8A8A00184806 /* VCWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FF48571D2B8A8A00184806 /* VCWebView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		80738C21CFFDE20B39502C67 /* Pods-VCWeb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VCWeb.release.xcconfig"; path = "Pods/Target Support Files/Pods-VCWeb/Pods-VCWeb.release.xcconfig"; sourceTree = "<group>"; };
 		A6DFCFB74DFA6835054558B7 /* Pods-VCWeb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VCWeb.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VCWeb/Pods-VCWeb.debug.xcconfig"; sourceTree = "<group>"; };
+		D09C72B81D23B68F0099CDC2 /* UUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUID.h; sourceTree = "<group>"; };
+		D09C72B91D23B68F0099CDC2 /* UUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUID.m; sourceTree = "<group>"; };
+		D09C72BB1D23B6A60099CDC2 /* KeyChainStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyChainStore.h; sourceTree = "<group>"; };
+		D09C72BC1D23B6A60099CDC2 /* KeyChainStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyChainStore.m; sourceTree = "<group>"; };
+		D09C72C11D23BACD0099CDC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/VCNetLocalString.strings; sourceTree = "<group>"; };
+		D09C72C21D23BACD0099CDC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/VCNetLocalString.strings; sourceTree = "<group>"; };
+		D09C72C31D23BACD0099CDC2 /* VCHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCHttpClient.h; sourceTree = "<group>"; };
+		D09C72C41D23BACD0099CDC2 /* VCHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCHttpClient.m; sourceTree = "<group>"; };
+		D09C72C51D23BACD0099CDC2 /* VCNetRequestBaseService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCNetRequestBaseService.h; sourceTree = "<group>"; };
+		D09C72C61D23BACD0099CDC2 /* VCNetRequestBaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCNetRequestBaseService.m; sourceTree = "<group>"; };
+		D09C72C81D23BACD0099CDC2 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		D09C72C91D23BACD0099CDC2 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		D09C72CA1D23BACD0099CDC2 /* NSDate+JavaTimeStampToDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+JavaTimeStampToDate.h"; sourceTree = "<group>"; };
+		D09C72CB1D23BACD0099CDC2 /* NSDate+JavaTimeStampToDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JavaTimeStampToDate.m"; sourceTree = "<group>"; };
+		D09C72CC1D23BACD0099CDC2 /* NSMutableDictionary+ConvertShaToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+ConvertShaToken.h"; sourceTree = "<group>"; };
+		D09C72CD1D23BACD0099CDC2 /* NSMutableDictionary+ConvertShaToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+ConvertShaToken.m"; sourceTree = "<group>"; };
+		D09C72CE1D23BACD0099CDC2 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		D09C72CF1D23BACD0099CDC2 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		D09C72D01D23BACD0099CDC2 /* NSString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
+		D09C72D11D23BACD0099CDC2 /* NSString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
+		D09C72D21D23BACD0099CDC2 /* NSString+VCBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+VCBase64.h"; sourceTree = "<group>"; };
+		D09C72D31D23BACD0099CDC2 /* NSString+VCBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+VCBase64.m"; sourceTree = "<group>"; };
+		D09C72D41D23BACD0099CDC2 /* NSString+VCSHA1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+VCSHA1.h"; sourceTree = "<group>"; };
+		D09C72D51D23BACD0099CDC2 /* NSString+VCSHA1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+VCSHA1.m"; sourceTree = "<group>"; };
+		D09C72D61D23BACD0099CDC2 /* SignatureUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignatureUtils.h; sourceTree = "<group>"; };
+		D09C72D71D23BACD0099CDC2 /* SignatureUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignatureUtils.m; sourceTree = "<group>"; };
+		D09C72E31D23BB1A0099CDC2 /* ServerEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerEntity.h; sourceTree = "<group>"; };
+		D09C72E41D23BB1A0099CDC2 /* ServerEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerEntity.m; sourceTree = "<group>"; };
+		D09C72E61D23BE0C0099CDC2 /* SerializeUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerializeUtils.h; sourceTree = "<group>"; };
+		D09C72E71D23BE0C0099CDC2 /* SerializeUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerializeUtils.m; sourceTree = "<group>"; };
+		D09C72E91D23BF2C0099CDC2 /* VCRNService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCRNService.h; sourceTree = "<group>"; };
+		D09C72EA1D23BF2C0099CDC2 /* VCRNService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCRNService.m; sourceTree = "<group>"; };
+		D09C72EC1D24AA7D0099CDC2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		D0DDC0EB1D20BF32003A1F39 /* VCWeb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VCWeb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0DDC0EF1D20BF32003A1F39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D0DDC0F11D20BF32003A1F39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -44,6 +98,14 @@
 		D0DDC10B1D211718003A1F39 /* loading_6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loading_6@2x.png"; sourceTree = "<group>"; };
 		D0DDC1121D212510003A1F39 /* NewsResponde.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsResponde.h; sourceTree = "<group>"; };
 		D0DDC1131D212510003A1F39 /* NewsResponde.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsResponde.m; sourceTree = "<group>"; };
+		D0DDC1151D23612D003A1F39 /* VCWebBrowserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCWebBrowserController.h; sourceTree = "<group>"; };
+		D0DDC1161D23612D003A1F39 /* VCWebBrowserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCWebBrowserController.m; sourceTree = "<group>"; };
+		D0DDC11B1D23960A003A1F39 /* CTMediator+CTMediatorModuleAActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+CTMediatorModuleAActions.h"; sourceTree = "<group>"; };
+		D0DDC11C1D23960A003A1F39 /* CTMediator+CTMediatorModuleAActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+CTMediatorModuleAActions.m"; sourceTree = "<group>"; };
+		D0DDC11D1D23960A003A1F39 /* CTMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTMediator.h; sourceTree = "<group>"; };
+		D0DDC11E1D23960A003A1F39 /* CTMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTMediator.m; sourceTree = "<group>"; };
+		D0FF48561D2B8A8A00184806 /* VCWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCWebView.h; sourceTree = "<group>"; };
+		D0FF48571D2B8A8A00184806 /* VCWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCWebView.m; sourceTree = "<group>"; };
 		DB05519DF0D49DCE10DE33F9 /* libPods-VCWeb.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VCWeb.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -52,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D09C72ED1D24AA7D0099CDC2 /* CoreData.framework in Frameworks */,
 				0E0C2AB58153F8C1FA6559F2 /* libPods-VCWeb.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -62,6 +125,7 @@
 		07283F668AA91797D4205CDE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D09C72EC1D24AA7D0099CDC2 /* CoreData.framework */,
 				DB05519DF0D49DCE10DE33F9 /* libPods-VCWeb.a */,
 			);
 			name = Frameworks;
@@ -74,6 +138,56 @@
 				80738C21CFFDE20B39502C67 /* Pods-VCWeb.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		D09C72BE1D23BACD0099CDC2 /* VCNetService */ = {
+			isa = PBXGroup;
+			children = (
+				D09C72E91D23BF2C0099CDC2 /* VCRNService.h */,
+				D09C72EA1D23BF2C0099CDC2 /* VCRNService.m */,
+				D09C72BF1D23BACD0099CDC2 /* RequestService */,
+				D09C72C71D23BACD0099CDC2 /* Signature */,
+			);
+			path = VCNetService;
+			sourceTree = "<group>";
+		};
+		D09C72BF1D23BACD0099CDC2 /* RequestService */ = {
+			isa = PBXGroup;
+			children = (
+				D09C72C01D23BACD0099CDC2 /* VCNetLocalString.strings */,
+				D09C72C31D23BACD0099CDC2 /* VCHttpClient.h */,
+				D09C72C41D23BACD0099CDC2 /* VCHttpClient.m */,
+				D09C72E31D23BB1A0099CDC2 /* ServerEntity.h */,
+				D09C72E41D23BB1A0099CDC2 /* ServerEntity.m */,
+				D09C72C51D23BACD0099CDC2 /* VCNetRequestBaseService.h */,
+				D09C72C61D23BACD0099CDC2 /* VCNetRequestBaseService.m */,
+			);
+			path = RequestService;
+			sourceTree = "<group>";
+		};
+		D09C72C71D23BACD0099CDC2 /* Signature */ = {
+			isa = PBXGroup;
+			children = (
+				D09C72C81D23BACD0099CDC2 /* NSData+Base64.h */,
+				D09C72C91D23BACD0099CDC2 /* NSData+Base64.m */,
+				D09C72CA1D23BACD0099CDC2 /* NSDate+JavaTimeStampToDate.h */,
+				D09C72CB1D23BACD0099CDC2 /* NSDate+JavaTimeStampToDate.m */,
+				D09C72CC1D23BACD0099CDC2 /* NSMutableDictionary+ConvertShaToken.h */,
+				D09C72CD1D23BACD0099CDC2 /* NSMutableDictionary+ConvertShaToken.m */,
+				D09C72CE1D23BACD0099CDC2 /* NSString+MD5.h */,
+				D09C72CF1D23BACD0099CDC2 /* NSString+MD5.m */,
+				D09C72D01D23BACD0099CDC2 /* NSString+Size.h */,
+				D09C72D11D23BACD0099CDC2 /* NSString+Size.m */,
+				D09C72D21D23BACD0099CDC2 /* NSString+VCBase64.h */,
+				D09C72D31D23BACD0099CDC2 /* NSString+VCBase64.m */,
+				D09C72D41D23BACD0099CDC2 /* NSString+VCSHA1.h */,
+				D09C72D51D23BACD0099CDC2 /* NSString+VCSHA1.m */,
+				D09C72D61D23BACD0099CDC2 /* SignatureUtils.h */,
+				D09C72D71D23BACD0099CDC2 /* SignatureUtils.m */,
+				D09C72E61D23BE0C0099CDC2 /* SerializeUtils.h */,
+				D09C72E71D23BE0C0099CDC2 /* SerializeUtils.m */,
+			);
+			path = Signature;
 			sourceTree = "<group>";
 		};
 		D0DDC0E21D20BF32003A1F39 = {
@@ -102,13 +216,23 @@
 				D0DDC0F21D20BF32003A1F39 /* AppDelegate.m */,
 				D0DDC0F41D20BF32003A1F39 /* ViewController.h */,
 				D0DDC0F51D20BF32003A1F39 /* ViewController.m */,
+				D0DDC1151D23612D003A1F39 /* VCWebBrowserController.h */,
+				D0DDC1161D23612D003A1F39 /* VCWebBrowserController.m */,
 				D0DDC1121D212510003A1F39 /* NewsResponde.h */,
 				D0DDC1131D212510003A1F39 /* NewsResponde.m */,
 				D0DDC0F71D20BF33003A1F39 /* Main.storyboard */,
 				D0DDC0FA1D20BF33003A1F39 /* Assets.xcassets */,
 				D0DDC0FC1D20BF33003A1F39 /* LaunchScreen.storyboard */,
 				D0DDC0FF1D20BF33003A1F39 /* Info.plist */,
+				D09C72BE1D23BACD0099CDC2 /* VCNetService */,
+				D0DDC1181D23960A003A1F39 /* CTMediator */,
 				D0DDC0EE1D20BF32003A1F39 /* Supporting Files */,
+				D09C72B81D23B68F0099CDC2 /* UUID.h */,
+				D09C72B91D23B68F0099CDC2 /* UUID.m */,
+				D0FF48561D2B8A8A00184806 /* VCWebView.h */,
+				D0FF48571D2B8A8A00184806 /* VCWebView.m */,
+				D09C72BB1D23B6A60099CDC2 /* KeyChainStore.h */,
+				D09C72BC1D23B6A60099CDC2 /* KeyChainStore.m */,
 			);
 			path = VCWeb;
 			sourceTree = "<group>";
@@ -132,6 +256,33 @@
 				D0DDC10B1D211718003A1F39 /* loading_6@2x.png */,
 			);
 			path = loading_images;
+			sourceTree = "<group>";
+		};
+		D0DDC1181D23960A003A1F39 /* CTMediator */ = {
+			isa = PBXGroup;
+			children = (
+				D0DDC1191D23960A003A1F39 /* Categories */,
+				D0DDC11D1D23960A003A1F39 /* CTMediator.h */,
+				D0DDC11E1D23960A003A1F39 /* CTMediator.m */,
+			);
+			path = CTMediator;
+			sourceTree = "<group>";
+		};
+		D0DDC1191D23960A003A1F39 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				D0DDC11A1D23960A003A1F39 /* ModuleA */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		D0DDC11A1D23960A003A1F39 /* ModuleA */ = {
+			isa = PBXGroup;
+			children = (
+				D0DDC11B1D23960A003A1F39 /* CTMediator+CTMediatorModuleAActions.h */,
+				D0DDC11C1D23960A003A1F39 /* CTMediator+CTMediatorModuleAActions.m */,
+			);
+			path = ModuleA;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +351,7 @@
 				D0DDC1111D211718003A1F39 /* loading_6@2x.png in Resources */,
 				D0DDC10E1D211718003A1F39 /* loading_3@2x.png in Resources */,
 				D0DDC10D1D211718003A1F39 /* loading_2@2x.png in Resources */,
+				D09C72D81D23BACD0099CDC2 /* VCNetLocalString.strings in Resources */,
 				D0DDC10C1D211718003A1F39 /* loading_1@2x.png in Resources */,
 				D0DDC10F1D211718003A1F39 /* loading_4@2x.png in Resources */,
 				D0DDC1101D211718003A1F39 /* loading_5@2x.png in Resources */,
@@ -261,16 +413,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D09C72DC1D23BACD0099CDC2 /* NSDate+JavaTimeStampToDate.m in Sources */,
+				D09C72BA1D23B68F0099CDC2 /* UUID.m in Sources */,
+				D09C72DD1D23BACD0099CDC2 /* NSMutableDictionary+ConvertShaToken.m in Sources */,
+				D09C72E11D23BACD0099CDC2 /* NSString+VCSHA1.m in Sources */,
 				D0DDC0F61D20BF32003A1F39 /* ViewController.m in Sources */,
+				D09C72E51D23BB1A0099CDC2 /* ServerEntity.m in Sources */,
+				D0DDC1171D23612D003A1F39 /* VCWebBrowserController.m in Sources */,
 				D0DDC0F31D20BF32003A1F39 /* AppDelegate.m in Sources */,
+				D0FF48581D2B8A8A00184806 /* VCWebView.m in Sources */,
+				D09C72BD1D23B6A60099CDC2 /* KeyChainStore.m in Sources */,
+				D09C72E81D23BE0C0099CDC2 /* SerializeUtils.m in Sources */,
+				D09C72DB1D23BACD0099CDC2 /* NSData+Base64.m in Sources */,
+				D09C72DF1D23BACD0099CDC2 /* NSString+Size.m in Sources */,
+				D09C72D91D23BACD0099CDC2 /* VCHttpClient.m in Sources */,
+				D09C72E01D23BACD0099CDC2 /* NSString+VCBase64.m in Sources */,
+				D09C72E21D23BACD0099CDC2 /* SignatureUtils.m in Sources */,
 				D0DDC1141D212510003A1F39 /* NewsResponde.m in Sources */,
+				D09C72DA1D23BACD0099CDC2 /* VCNetRequestBaseService.m in Sources */,
 				D0DDC0F01D20BF32003A1F39 /* main.m in Sources */,
+				D09C72EB1D23BF2C0099CDC2 /* VCRNService.m in Sources */,
+				D09C72DE1D23BACD0099CDC2 /* NSString+MD5.m in Sources */,
+				D0DDC11F1D23960A003A1F39 /* CTMediator+CTMediatorModuleAActions.m in Sources */,
+				D0DDC1201D23960A003A1F39 /* CTMediator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		D09C72C01D23BACD0099CDC2 /* VCNetLocalString.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D09C72C11D23BACD0099CDC2 /* Base */,
+				D09C72C21D23BACD0099CDC2 /* en */,
+			);
+			name = VCNetLocalString.strings;
+			sourceTree = "<group>";
+		};
 		D0DDC0F71D20BF33003A1F39 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

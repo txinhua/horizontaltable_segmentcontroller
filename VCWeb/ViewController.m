@@ -9,6 +9,10 @@
 #import "ViewController.h"
 #import <HMSegmentedControl/HMSegmentedControl.h>
 #import <MJRefresh/MJRefresh.h>
+#import "VCWebBrowserController.h"
+#import "ServerEntity.h"
+#import "SignatureUtils.h"
+#import "VCNetRequestBaseService.h"
 
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 {
@@ -19,6 +23,12 @@
 @end
 
 @implementation ViewController
+
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    [self.navigationController setNavigationBarHidden:YES];
+}
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -51,6 +61,12 @@
         [weak_self.horizontalTable scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:index inSection:0] atScrollPosition:UITableViewScrollPositionNone animated:YES];
     }];
     [self.view addSubview:segmentedControl4];
+    
+    UIButton *browserBtn =[UIButton buttonWithType:UIButtonTypeSystem];
+    [browserBtn setTitle:@"br" forState:UIControlStateNormal];
+    [browserBtn setFrame:CGRectMake(self.view.frame.size.width-35, 27, 30, 30)];
+    [self.view addSubview:browserBtn];
+    [browserBtn addTarget:self action:@selector(showBrowserView) forControlEvents:UIControlEventTouchUpInside];
     
     // Do any additional setup after loading the view, typically from a nib.
 }
@@ -144,6 +160,45 @@
 }
 
 
+-(void)showBrowserView{
+    
+    
+//    NSDictionary *parameDic = @{@"cc":@"0086",@"phone":@"18015133059",@"smscode":@"1235"};
+//    ServerEntity *server = [[ServerEntity alloc]initWithMethod:@"POST" andUrl:@"/user/login"];
+//    [SignatureUtils clearAccessToken];
+//    [[[VCNetRequestBaseService alloc]init]requestDataFromServer:server.serverUrl  withMethod:server.requestMethod Parame:parameDic andCompletion:^(ResponsedUnit *responseUnit, NSError *error) {
+//        if (!error) {
+//            if (responseUnit) {
+//                
+//            }else{
+//                NSLog(@"返回值错误");
+//            }
+//        }
+//        
+//    }];
+    
+    
+//    NSDictionary *parameDic = @{@"username":@"18015133059",@"act":@"w7P5L1JXDvMRQdr9YOgyeXRsWU1Jdoz5X7Cb8BblKBxEZGpazWAn2o3bjqN8"};
+//    ServerEntity *server = [[ServerEntity alloc]initWithMethod:@"POST" andUrl:@"/user/login"];
+//    [SignatureUtils clearAccessToken];
+//    [[[VCNetRequestBaseService alloc]init]requestDataFromServer:server.serverUrl  withMethod:server.requestMethod Parame:parameDic andCompletion:^(ResponsedUnit *responseUnit, NSError *error) {
+//        if (!error) {
+//            if (responseUnit) {
+//
+//            }else{
+//                NSLog(@"返回值错误");
+//            }
+//        }
+//        
+//    }];
+    
+    
+    
+    VCWebBrowserController *vcBrowser =[[VCWebBrowserController alloc]init];
+    vcBrowser.vcUrlString = @"http://www.baidu.com";
+    [self.navigationController pushViewController:vcBrowser animated:YES];
+    
+}
 
 
 

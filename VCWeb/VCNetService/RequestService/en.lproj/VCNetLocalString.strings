@@ -1,0 +1,14 @@
+/* 
+  VCNetLocalString.strings
+  VCNetRequest
+
+  Created by VcaiTech on 16/4/14.
+  Copyright © 2016年 VcaiTech. All rights reserved.
+*/
+
+"cellular data Unavailable"="Cellular Data Service Unavailable";
+"no network"="Internet Is Disconnected";
+"parame error"="Request params not valid";
+"response error"="return value from the code is false";
+"request method error"="unsupport request method please use GET|POST";
+

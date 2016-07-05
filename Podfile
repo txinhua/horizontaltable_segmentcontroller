@@ -7,6 +7,9 @@ target 'VCWeb' do
     
 	pod 'HMSegmentedControl'
     pod 'MJRefresh'
+    pod 'NJKWebViewProgress'
+    pod 'HandyFrame'
+    pod 'AFNetworking'
 
 end
 

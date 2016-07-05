@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "CTMediator.h"
+#import "UUID.h"
+#import "SignatureUtils.h"
 
 @interface AppDelegate ()
 
@@ -17,7 +20,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    NSString *uuid = [UUID getUUID];
+    [self initVCServices];
     return YES;
+}
+
+-(void)initVCServices{
+    //加签
+    [SignatureUtils signWithAppkey:@"AWTjonYhJOqhj9PE" andSecurity:@"gemhmsrBz00kgkrpv4eClD15soq5lnpqA0ruiffj"];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
@@ -41,5 +51,14 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString *,id> *)options
+{
+    return [[[CTMediator sharedInstance] performActionWithUrl:url completion:nil] boolValue];
+}
+
+
+
 
 @end
