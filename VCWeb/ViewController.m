@@ -13,6 +13,7 @@
 #import "ServerEntity.h"
 #import "SignatureUtils.h"
 #import "VCNetRequestBaseService.h"
+#import "AddWaterViewController.h"
 
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 {
@@ -29,9 +30,9 @@
     [self.navigationController setNavigationBarHidden:YES];
 }
 
-
 - (void)viewDidLoad {
     [super viewDidLoad];
+//    [super viewWillAppear:NO];
     _horizontalTable = [[UITableView alloc]initWithFrame:CGRectZero style:UITableViewStylePlain];
     _horizontalTable.delegate = self;
     _horizontalTable.dataSource = self;
@@ -194,9 +195,12 @@
     
     
     
-    VCWebBrowserController *vcBrowser =[[VCWebBrowserController alloc]init];
-    vcBrowser.vcUrlString = @"http://www.baidu.com";
-    [self.navigationController pushViewController:vcBrowser animated:YES];
+//    VCWebBrowserController *vcBrowser =[[VCWebBrowserController alloc]init];
+//    vcBrowser.vcUrlString = @"http://www.baidu.com";
+//    [self.navigationController pushViewController:vcBrowser animated:YES];
+    
+    AddWaterViewController *adWater =[[AddWaterViewController alloc]init];
+    [self.navigationController pushViewController:adWater animated:YES];
     
 }
 
